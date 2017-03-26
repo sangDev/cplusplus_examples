@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/resource_managing_classes.dir/main.cpp.o  -o resource_managing_classes.exe -Wl,--out-implib,libresource_managing_classes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

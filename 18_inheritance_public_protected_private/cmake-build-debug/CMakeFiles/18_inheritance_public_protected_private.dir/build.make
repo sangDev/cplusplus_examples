@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/JJ/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/JJ/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private
+CMAKE_SOURCE_DIR = /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/18_inheritance_public_protected_private.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/18_inheritance_public_protected_private.dir/flags.make
 
 CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o: CMakeFiles/18_inheritance_public_protected_private.dir/flags.make
 CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o"
-	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o -c /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o -c /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/main.cpp
 
 CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.i"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/main.cpp > CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/main.cpp > CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.i
 
 CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.s"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/main.cpp -o CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/main.cpp -o CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.s
 
 CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o.requires:
 
@@ -88,14 +88,14 @@ CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o.provides.build
 # External object files for target 18_inheritance_public_protected_private
 18_inheritance_public_protected_private_EXTERNAL_OBJECTS =
 
-18_inheritance_public_protected_private.exe: CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o
-18_inheritance_public_protected_private.exe: CMakeFiles/18_inheritance_public_protected_private.dir/build.make
-18_inheritance_public_protected_private.exe: CMakeFiles/18_inheritance_public_protected_private.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 18_inheritance_public_protected_private.exe"
+18_inheritance_public_protected_private: CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o
+18_inheritance_public_protected_private: CMakeFiles/18_inheritance_public_protected_private.dir/build.make
+18_inheritance_public_protected_private: CMakeFiles/18_inheritance_public_protected_private.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 18_inheritance_public_protected_private"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/18_inheritance_public_protected_private.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/18_inheritance_public_protected_private.dir/build: 18_inheritance_public_protected_private.exe
+CMakeFiles/18_inheritance_public_protected_private.dir/build: 18_inheritance_public_protected_private
 
 .PHONY : CMakeFiles/18_inheritance_public_protected_private.dir/build
 
@@ -108,6 +108,6 @@ CMakeFiles/18_inheritance_public_protected_private.dir/clean:
 .PHONY : CMakeFiles/18_inheritance_public_protected_private.dir/clean
 
 CMakeFiles/18_inheritance_public_protected_private.dir/depend:
-	cd /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles/18_inheritance_public_protected_private.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles/18_inheritance_public_protected_private.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/18_inheritance_public_protected_private.dir/depend
 

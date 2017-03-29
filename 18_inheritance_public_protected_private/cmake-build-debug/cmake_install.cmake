@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private
+# Install script for directory: /Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

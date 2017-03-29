@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/main.cpp" "/cygdrive/d/Data/SJ/githubWork/cplusplus/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o"
+  "/Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/main.cpp" "/Users/mac2010/Documents/githubData/sangDev/cplusplus_examples/18_inheritance_public_protected_private/cmake-build-debug/CMakeFiles/18_inheritance_public_protected_private.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
